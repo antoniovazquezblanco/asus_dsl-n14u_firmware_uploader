@@ -8,7 +8,7 @@ import threading
 from pexpect.exceptions import TIMEOUT
 from pathlib import Path
 from rich.console import Console
-from serial_spawn import SerialSpawn
+from pexpect_serialspawn import SerialSpawn
 import serial.tools.list_ports
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
